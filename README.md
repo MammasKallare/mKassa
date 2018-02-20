@@ -1,10 +1,10 @@
 # mKassa
 
-A lightweight, open-source, cash register system for tablets and laptops.
+A lightweight, open-source, cash register system for tablets and laptops. See mKassa-gui, which is meant to use this API.
 
 # Setup
 
-Install node.js and mongodb.
+Install NodeJS and mongodb.
 
-> mongod
-> npm start
+`mongod` starts the mongodb database.
+`npm start` starts this project with a local web server.
