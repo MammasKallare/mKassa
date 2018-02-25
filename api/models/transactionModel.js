@@ -18,6 +18,14 @@ var TransactionSchema = new Schema({
   Created_date: {
     type: Date,
     default: Date.now
+  },
+  rejected: {
+    type: Boolean,
+    default: false
+  },
+  rejected_message: {
+    type: String,
+    default: "Not Rejected"
   }
 });
 
